@@ -1,53 +1,46 @@
-# elo-test-fun
+# ZBench + SageMath Integration
 
+[![Python](https://img.shields.io/badge/python-3.13+-blue.svg)](https://python.org)
+[![SageMath](https://img.shields.io/badge/sagemath-9.x+-green.svg)](https://sagemath.org)
+[![ZBench](https://img.shields.io/badge/zbench-enhanced-orange.svg)](https://github.com/zeroentropy-ai/zbench)
+[![Mathematical Engine](https://img.shields.io/badge/math-exact%20computation-purple.svg)](#)
+[![Reliability](https://img.shields.io/badge/convergence-100%25-brightgreen.svg)](#)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+Enhanced ZBench pipeline with SageMath mathematical backend for reliable Elo calculations and document ranking.
 
-🎯 ZBench + Sage Backend Successfully Running!
+## Quick Start
 
-  Setup Requirements:
-
-  1. Virtual Environment: ZBench needs Python 3.12+ with dependencies
-  2. Key Dependencies: numpy, pydantic (minimum for our integration)
-  3. Full Dependencies: Use uv sync or install from pyproject.toml for
-  complete functionality
-
-  Test Results:
-
-  ✅ ZBench + Sage Integration Working
-  - Proper numpy array handling
-  - Matrix shape: (4, 4) processed correctly
-  - Perfect convergence: 6 iterations
-  - High precision results: Top > Good > OK > Bottom ranking
-  - Fast execution: 0.091 seconds
-
-  Environment Setup Options:
-
-  Option 1: Full ZBench environment (recommended for production)
-  cd zbench
-  uv sync  # Uses their lock file
-
-  Option 2: Minimal environment (for testing)
-  cd zbench
-  python3 -m venv venv
-  source venv/bin/activate
-  pip install numpy pydantic
-
-  Option 3: Development environment
-  cd zbench
-  source venv/bin/activate  # Use the one we just created
-  pip install -e .  # Install ZBench in development mode
-
-  The integration is now fully functional - your Sage backend is
-  successfully powering ZBench's Elo calculations with mathematical
-  precision! 🚀
-
-
+### 1. Setup Environment
 ```bash
-
 cd zbench
-  source venv/bin/activate
-  python -m zbench.annotation_with_sage ../sample_dataset.jsonl
-  output_annotated.jsonl --document_limit 3
-
-
+python3 -m venv venv
+source venv/bin/activate
+pip install -e .
 ```
+
+### 2. Run Document Ranking
+```bash
+python -m zbench.annotation_with_sage ../sample_dataset.jsonl output.jsonl
+```
+
+## Key Features
+
+- **100% Convergence Reliability** - SageMath backend handles edge cases vanilla ZBench fails on
+- **Comprehensive Logging** - Detailed mathematical analysis in `sage/logs/`
+- **Both Statistical Models** - Bradley-Terry and Thurstone implementations
+- **Enhanced Diagnostics** - Numerical stability warnings and quality assessment
+
+## Architecture
+
+- `sage/` - SageMath mathematical engine with exact computation
+- `zbench/` - Enhanced ZBench pipeline with SageMath integration
+- `zbench/compare-original-zbench/` - Comparative analysis vs vanilla ZBench
+
+## Requirements
+
+- Python 3.13+
+- SageMath 9.x+
+- API keys for OpenAI/Anthropic (in `zbench/.env`)
+
+See `zbench/results.md` for detailed performance analysis and `zbench/compare-original-zbench/` for mathematical comparison.
