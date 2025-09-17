@@ -1,0 +1,84 @@
+{
+  "engine": "vanilla_zbench",
+  "test_cases": [
+    {
+      "name": "2_documents",
+      "preference_matrix": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "elos": [
+        NaN,
+        NaN
+      ],
+      "converged": false,
+      "iterations": 1000,
+      "final_loss": NaN,
+      "sum_constraint": NaN
+    },
+    {
+      "name": "3_documents_tie",
+      "preference_matrix": [
+        [
+          0.0,
+          1.0,
+          1.5
+        ],
+        [
+          3.0,
+          0.0,
+          0.5
+        ],
+        [
+          2.5,
+          3.5,
+          0.0
+        ]
+      ],
+      "elos": [
+        -0.5517242066098847,
+        -0.18736282417468514,
+        0.7390870307845698
+      ],
+      "converged": true,
+      "iterations": 5,
+      "final_loss": 7.1799392772109805,
+      "sum_constraint": 0.0
+    },
+    {
+      "name": "3_documents_ranking",
+      "preference_matrix": [
+        [
+          0.0,
+          2.5,
+          3.0
+        ],
+        [
+          1.5,
+          0.0,
+          3.5
+        ],
+        [
+          1.0,
+          0.5,
+          0.0
+        ]
+      ],
+      "elos": [
+        0.5849671112322989,
+        0.3951833314278376,
+        -0.9801504426601366
+      ],
+      "converged": true,
+      "iterations": 5,
+      "final_loss": 6.60922861353591,
+      "sum_constraint": 0.0
+    }
+  ]
+}

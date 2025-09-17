@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zbench"
+version = "0.1.0"
+description = "ZeroEntropy benchmarking tools"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic==2.11.7",
+    "numpy==2.3.1",
+    "tqdm==4.67.1",
+    "aiohttp==3.12.14",
+    "python-dotenv==1.1.1",
+    "datasets==4.0.0",
+    "anthropic==0.57.1",
+    "openai==1.97.0",
+    "redis==6.2.0",
+    "tiktoken==0.9.0",
+    "loguru==0.7.3",
+    "openlimit @ git+https://github.com/shobrook/openlimit.git@master",
+    "zeroentropy==0.1.0a6",
+    "matplotlib==3.10.3",
+    "ipykernel==6.30.0",
+    "ipywidgets==8.1.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["zbench"]
+exclude = ["tmp", "data"]
+
+[tool.setuptools.package-data]
+zbench = ["*.py"]
