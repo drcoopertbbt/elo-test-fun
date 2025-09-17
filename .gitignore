@@ -128,9 +128,8 @@ auth.json
 sage-*
 .sage/
 
-# ZBench output files
-data/
-annotated_*.jsonl
-*_pairs.json
-*_scores.json
-*_annotated.jsonl
+# ZBench output files (keep data/ for transparency, only ignore root level outputs)
+/annotated_*.jsonl
+/*_pairs.json
+/*_scores.json
+/*_annotated.jsonl

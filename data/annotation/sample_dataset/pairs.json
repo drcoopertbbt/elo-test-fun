@@ -1,0 +1,460 @@
+{
+    "pairs": [
+        {
+            "pair_id": "q1-d2-d3",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            },
+            "document_b": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            }
+        },
+        {
+            "pair_id": "q1-d3-d1",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            },
+            "document_b": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            }
+        },
+        {
+            "pair_id": "q1-d1-d2",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            },
+            "document_b": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            }
+        },
+        {
+            "pair_id": "q1-d2-d1",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            },
+            "document_b": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            }
+        },
+        {
+            "pair_id": "q1-d1-d3",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            },
+            "document_b": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            }
+        },
+        {
+            "pair_id": "q1-d3-d2",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            },
+            "document_b": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            }
+        },
+        {
+            "pair_id": "q1-d3-d2",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            },
+            "document_b": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            }
+        },
+        {
+            "pair_id": "q1-d2-d1",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            },
+            "document_b": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            }
+        },
+        {
+            "pair_id": "q1-d1-d3",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            },
+            "document_b": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            }
+        },
+        {
+            "pair_id": "q1-d3-d2",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            },
+            "document_b": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            }
+        },
+        {
+            "pair_id": "q1-d2-d1",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d2",
+                "metadata": {
+                    "source": "Statistics Journal 2023"
+                },
+                "content": "Traditional machine learning with feature engineering and algorithms like Random Forest or SVM works well for many problems and is more interpretable."
+            },
+            "document_b": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            }
+        },
+        {
+            "pair_id": "q1-d1-d3",
+            "query_id": "q1",
+            "query": "What is the best approach to machine learning?",
+            "document_a": {
+                "document_id": "d1",
+                "metadata": {
+                    "source": "ML Textbook Ch. 8"
+                },
+                "content": "Deep learning with neural networks is the most effective approach to machine learning. It can learn complex patterns and representations from large amounts of data automatically."
+            },
+            "document_b": {
+                "document_id": "d3",
+                "metadata": {
+                    "source": "Practical ML Guide"
+                },
+                "content": "The best approach depends on your data size and problem complexity. Start simple with linear models, then move to more complex methods if needed."
+            }
+        },
+        {
+            "pair_id": "q2-d5-d4",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            },
+            "document_b": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            }
+        },
+        {
+            "pair_id": "q2-d4-d6",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            },
+            "document_b": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            }
+        },
+        {
+            "pair_id": "q2-d6-d5",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            },
+            "document_b": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            }
+        },
+        {
+            "pair_id": "q2-d6-d5",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            },
+            "document_b": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            }
+        },
+        {
+            "pair_id": "q2-d5-d4",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            },
+            "document_b": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            }
+        },
+        {
+            "pair_id": "q2-d4-d6",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            },
+            "document_b": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            }
+        },
+        {
+            "pair_id": "q2-d6-d5",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            },
+            "document_b": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            }
+        },
+        {
+            "pair_id": "q2-d5-d4",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            },
+            "document_b": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            }
+        },
+        {
+            "pair_id": "q2-d4-d6",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            },
+            "document_b": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            }
+        },
+        {
+            "pair_id": "q2-d6-d4",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            },
+            "document_b": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            }
+        },
+        {
+            "pair_id": "q2-d4-d5",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d4",
+                "metadata": {
+                    "source": "ML Theory Book"
+                },
+                "content": "Regularization techniques like L1 and L2 penalties help prevent overfitting by constraining model complexity."
+            },
+            "document_b": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            }
+        },
+        {
+            "pair_id": "q2-d5-d6",
+            "query_id": "q2",
+            "query": "How do you prevent overfitting in models?",
+            "document_a": {
+                "document_id": "d5",
+                "metadata": {
+                    "source": "Model Validation Paper"
+                },
+                "content": "Cross-validation is essential for detecting overfitting. Always validate on unseen data and use techniques like early stopping."
+            },
+            "document_b": {
+                "document_id": "d6",
+                "metadata": {
+                    "source": "Deep Learning Research"
+                },
+                "content": "Dropout and data augmentation are effective techniques specifically for neural networks to reduce overfitting."
+            }
+        }
+    ]
+}
