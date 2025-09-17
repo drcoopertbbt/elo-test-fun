@@ -21,7 +21,7 @@ pip install -e .
 
 ### 2. Run Document Ranking
 ```bash
-python -m zbench.annotation_with_sage ../sample_dataset.jsonl output.jsonl
+python -m zbench.annotation_with_sage ../sample_dataset.jsonl annotated_output.jsonl
 ```
 
 ## Features
