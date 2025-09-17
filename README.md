@@ -4,7 +4,7 @@
 [![SageMath](https://img.shields.io/badge/sagemath-9.x+-green.svg)](https://sagemath.org)
 [![ZBench](https://img.shields.io/badge/zbench-enhanced-orange.svg)](https://github.com/zeroentropy-ai/zbench)
 [![Mathematical Engine](https://img.shields.io/badge/math-exact%20computation-purple.svg)](#)
-[![Reliability](https://img.shields.io/badge/convergence-100%25-brightgreen.svg)](#)
+[![Mathematical](https://img.shields.io/badge/math-backend-brightgreen.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Enhanced ZBench pipeline with SageMath mathematical backend for reliable Elo calculations and document ranking.
@@ -24,12 +24,29 @@ pip install -e .
 python -m zbench.annotation_with_sage ../sample_dataset.jsonl output.jsonl
 ```
 
-## Key Features
+## Features
 
-- **100% Convergence Reliability** - SageMath backend handles edge cases vanilla ZBench fails on
-- **Comprehensive Logging** - Detailed mathematical analysis in `sage/logs/`
-- **Both Statistical Models** - Bradley-Terry and Thurstone implementations
-- **Enhanced Diagnostics** - Numerical stability warnings and quality assessment
+- **SageMath Backend** - Mathematical engine for Elo calculations
+- **Enhanced Logging** - Detailed analysis in `sage/logs/`
+- **Statistical Models** - Bradley-Terry and Thurstone implementations
+- **Diagnostic Output** - Convergence and numerical stability analysis
+
+## Example Output
+
+```json
+{
+  "convergence_status": {
+    "converged": true,
+    "iterations": 14,
+    "final_loss": 7.938235
+  },
+  "elo_scores": {
+    "doc1": 0.366174,
+    "doc2": -0.732348,
+    "doc3": 0.366174
+  }
+}
+```
 
 ## Architecture
 
