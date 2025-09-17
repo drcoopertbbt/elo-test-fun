@@ -1,0 +1,270 @@
+====================================================================================================
+SAGEMATH ELO CALCULATION LOG - 2025-09-17T15:46:20.310386
+====================================================================================================
+
+Execution Time: 2.7271 seconds
+Success: True
+Sage Script: /Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage
+
+MATHEMATICAL INPUT ANALYSIS
+--------------------------------------------------
+Algorithm: bradley-terry
+Convergence Parameters:
+  - Epsilon: 0.0001
+  - Max Iterations: 1000
+  - Learning Rate: robbins_monro
+
+Problem Dimensions:
+  - Documents: 2
+  - Comparisons: 1
+  - Matrix Density: 0.2500
+
+Preference Matrix Properties:
+  - Diagonal Sum: 0.000000
+  - Off-Diagonal Sum: 1.000000
+  - Matrix Trace: 0.000000
+  - Symmetry Measure: 1.000000
+
+PREFERENCE MATRIX:
+------------------------------
+       Doc 0   Doc 1 
+Doc 0  0.000  1.000
+Doc 1  0.000  0.000
+
+DOCUMENT MAPPING:
+------------------------------
+Doc 0 -> doc1
+Doc 1 -> doc2
+
+MATHEMATICAL OUTPUT ANALYSIS
+--------------------------------------------------
+ELO SCORES:
+  1. doc1: +2.717739406513
+  2. doc2: -2.717739406513
+
+SCORE STATISTICS:
+  - Count: 2
+  - Mean: +0.000000000000
+  - Std Dev: 2.717739406513
+  - Range: 5.435478813026
+  - Min: -2.717739406513
+  - Max: +2.717739406513
+  - Sum Constraint OK: True
+
+MATHEMATICAL PROPERTIES:
+  - Unique Scores: 2
+  - Tied Documents: 0
+  - Perfect Ranking: True
+  - Max Gap: 5.435478813026
+  - Min Gap: 5.435478813026
+
+CONVERGENCE STATUS:
+  - Converged: True
+  - Iterations: 40
+  - Final Loss: 0.6974968543033224
+  - Time: 0.1007s
+  - Model: bradley-terry
+
+CONVERGENCE ANALYSIS:
+  - Quality: excellent
+  - Efficiency Score: 0.9600
+  - Numerical Precision: low
+
+NUMERICAL STABILITY ASSESSMENT:
+  - Matrix Conditioning: poor
+  - Extreme Values: 4
+  - Score Range: 5.435479
+  - Score Magnitude: 2.717739
+  - Warnings:
+    * High number of extreme preference values detected
+
+SAGEMATH STDOUT:
+------------------------------
+Successfully calculated Elos for 2 documents
+Results saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmpbns0pjdx.json
+
+
+====================================================================================================
+
+====================================================================================================
+SAGEMATH ELO CALCULATION LOG - 2025-09-17T15:47:04.432804
+====================================================================================================
+
+Execution Time: 2.7659 seconds
+Success: True
+Sage Script: /Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage
+
+MATHEMATICAL INPUT ANALYSIS
+--------------------------------------------------
+Algorithm: bradley-terry
+Convergence Parameters:
+  - Epsilon: 0.0001
+  - Max Iterations: 1000
+  - Learning Rate: robbins_monro
+
+Problem Dimensions:
+  - Documents: 3
+  - Comparisons: 6
+  - Matrix Density: 0.6667
+
+Preference Matrix Properties:
+  - Diagonal Sum: 0.000000
+  - Off-Diagonal Sum: 12.000000
+  - Matrix Trace: 0.000000
+  - Symmetry Measure: -2.000000
+
+PREFERENCE MATRIX:
+------------------------------
+       Doc 0   Doc 1   Doc 2 
+Doc 0  0.000  1.000  1.500
+Doc 1  3.000  0.000  0.500
+Doc 2  2.500  3.500  0.000
+
+DOCUMENT MAPPING:
+------------------------------
+Doc 0 -> d1
+Doc 1 -> d2
+Doc 2 -> d3
+
+MATHEMATICAL OUTPUT ANALYSIS
+--------------------------------------------------
+ELO SCORES:
+  1. d1: +0.366174040242
+  2. d3: +0.366174040242
+  3. d2: -0.732348080485
+
+SCORE STATISTICS:
+  - Count: 3
+  - Mean: +0.000000000000
+  - Std Dev: 0.517848293900
+  - Range: 1.098522120727
+  - Min: -0.732348080485
+  - Max: +0.366174040242
+  - Sum Constraint OK: True
+
+MATHEMATICAL PROPERTIES:
+  - Unique Scores: 2
+  - Tied Documents: 1
+  - Perfect Ranking: False
+  - Max Gap: 1.098522120727
+  - Min Gap: 0.000000000000
+
+CONVERGENCE STATUS:
+  - Converged: True
+  - Iterations: 14
+  - Final Loss: 7.938235083216443
+  - Time: 0.0965s
+  - Model: bradley-terry
+
+CONVERGENCE ANALYSIS:
+  - Quality: excellent
+  - Efficiency Score: 0.9860
+  - Numerical Precision: low
+
+NUMERICAL STABILITY ASSESSMENT:
+  - Matrix Conditioning: poor
+  - Extreme Values: 8
+  - Score Range: 1.098522
+  - Score Magnitude: 0.732348
+  - Warnings:
+    * High number of extreme preference values detected
+
+SAGEMATH STDOUT:
+------------------------------
+Successfully calculated Elos for 3 documents
+Results saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmpb2ul5wom.json
+
+
+====================================================================================================
+
+====================================================================================================
+SAGEMATH ELO CALCULATION LOG - 2025-09-17T15:47:07.025716
+====================================================================================================
+
+Execution Time: 2.5897 seconds
+Success: True
+Sage Script: /Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage
+
+MATHEMATICAL INPUT ANALYSIS
+--------------------------------------------------
+Algorithm: bradley-terry
+Convergence Parameters:
+  - Epsilon: 0.0001
+  - Max Iterations: 1000
+  - Learning Rate: robbins_monro
+
+Problem Dimensions:
+  - Documents: 3
+  - Comparisons: 6
+  - Matrix Density: 0.6667
+
+Preference Matrix Properties:
+  - Diagonal Sum: 0.000000
+  - Off-Diagonal Sum: 12.000000
+  - Matrix Trace: 0.000000
+  - Symmetry Measure: -2.000000
+
+PREFERENCE MATRIX:
+------------------------------
+       Doc 0   Doc 1   Doc 2 
+Doc 0  0.000  2.500  3.000
+Doc 1  1.500  0.000  3.500
+Doc 2  1.000  0.500  0.000
+
+DOCUMENT MAPPING:
+------------------------------
+Doc 0 -> d4
+Doc 1 -> d5
+Doc 2 -> d6
+
+MATHEMATICAL OUTPUT ANALYSIS
+--------------------------------------------------
+ELO SCORES:
+  1. d5: +3.633083425567
+  2. d6: +2.025038807359
+  3. d4: -5.658122232926
+
+SCORE STATISTICS:
+  - Count: 3
+  - Mean: +0.000000000000
+  - Std Dev: 4.054397799557
+  - Range: 9.291205658493
+  - Min: -5.658122232926
+  - Max: +3.633083425567
+  - Sum Constraint OK: True
+
+MATHEMATICAL PROPERTIES:
+  - Unique Scores: 3
+  - Tied Documents: 0
+  - Perfect Ranking: True
+  - Max Gap: 7.683161040285
+  - Min Gap: 1.608044618208
+
+CONVERGENCE STATUS:
+  - Converged: True
+  - Iterations: 13
+  - Final Loss: 2.0268957394822475
+  - Time: 0.0708s
+  - Model: bradley-terry
+
+CONVERGENCE ANALYSIS:
+  - Quality: excellent
+  - Efficiency Score: 0.9870
+  - Numerical Precision: low
+
+NUMERICAL STABILITY ASSESSMENT:
+  - Matrix Conditioning: poor
+  - Extreme Values: 8
+  - Score Range: 9.291206
+  - Score Magnitude: 5.658122
+  - Warnings:
+    * High number of extreme preference values detected
+
+SAGEMATH STDOUT:
+------------------------------
+Successfully calculated Elos for 3 documents
+Results saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmp5qg1tthn.json
+
+
+====================================================================================================
+

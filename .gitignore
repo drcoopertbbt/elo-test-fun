@@ -102,9 +102,15 @@ Temporary Items
 .*.swp
 .*.swo
 
-# Log files
+# Log files (but keep sage and zbench logs for documentation)
 *.log
 logs/
+!sage/logs/
+!sage/logs/*.log
+!sage/logs/*.json
+!zbench/logs/
+!zbench/logs/*.log
+!zbench/logs/*.json
 
 # Database files
 *.db

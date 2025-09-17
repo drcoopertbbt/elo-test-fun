@@ -1,0 +1,469 @@
+{
+  "executions": [
+    {
+      "timestamp": "2025-09-17T15:46:20.310386",
+      "execution_metadata": {
+        "sage_script": "/Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage",
+        "execution_time_seconds": 2.7271158695220947,
+        "success": true,
+        "sage_stdout_length": 128,
+        "sage_stderr_length": 0
+      },
+      "mathematical_input": {
+        "algorithm": "bradley-terry",
+        "convergence_parameters": {
+          "epsilon": 0.0001,
+          "max_iterations": 1000,
+          "learning_rate_type": "robbins_monro"
+        },
+        "problem_dimension": {
+          "n_documents": 2,
+          "n_comparisons": 1,
+          "matrix_density": 0.25,
+          "preference_matrix_properties": {
+            "diagonal_sum": 0.0,
+            "off_diagonal_sum": 1.0,
+            "matrix_trace": 0.0,
+            "matrix_symmetry_measure": 1.0
+          }
+        },
+        "document_ids": [
+          "doc1",
+          "doc2"
+        ],
+        "preference_matrix": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "sparse_comparisons": [
+          {
+            "i": 0,
+            "j": 1,
+            "weight": 1.0
+          }
+        ]
+      },
+      "mathematical_output": {
+        "elo_scores": {
+          "doc1": 2.7177394065130365,
+          "doc2": -2.7177394065130365
+        },
+        "convergence_status": {
+          "converged": true,
+          "iterations": 40,
+          "final_loss": 0.6974968543033224,
+          "time_seconds": 0.10065484046936035,
+          "model": "bradley-terry",
+          "n_documents": 2,
+          "n_comparisons": 1
+        },
+        "score_statistics": {
+          "count": 2,
+          "mean": 0.0,
+          "std_dev": 2.7177394065130365,
+          "variance": 7.3861074817138315,
+          "min": -2.7177394065130365,
+          "max": 2.7177394065130365,
+          "range": 5.435478813026073,
+          "median": 2.7177394065130365,
+          "sum_constraint_satisfied": true,
+          "score_distribution": {
+            "q1": -2.7177394065130365,
+            "q3": 2.7177394065130365
+          }
+        },
+        "mathematical_properties": {
+          "unique_scores": 2,
+          "tied_documents": 0,
+          "perfect_ranking": true,
+          "ranking_gaps": [
+            5.435478813026073
+          ],
+          "max_gap": 5.435478813026073,
+          "min_gap": 5.435478813026073,
+          "ranking_structure": [
+            [
+              "doc1",
+              2.7177394065130365
+            ],
+            [
+              "doc2",
+              -2.7177394065130365
+            ]
+          ]
+        }
+      },
+      "detailed_analysis": {
+        "algorithm_trace": {
+          "iteration_count": 0,
+          "convergence_messages": [],
+          "test_results": [],
+          "mathematical_operations": []
+        },
+        "convergence_analysis": {
+          "converged": true,
+          "iterations_used": 40,
+          "final_loss": 0.6974968543033224,
+          "convergence_quality": "excellent",
+          "efficiency_score": 0.96,
+          "numerical_precision": "low"
+        },
+        "numerical_stability": {
+          "matrix_conditioning": "poor",
+          "extreme_preference_values": 4,
+          "score_range": 5.435478813026073,
+          "score_magnitude": 2.7177394065130365,
+          "numerical_warnings": [
+            "High number of extreme preference values detected"
+          ]
+        }
+      },
+      "sage_output": {
+        "stdout": "Successfully calculated Elos for 2 documents\nResults saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmpbns0pjdx.json\n",
+        "stderr": ""
+      }
+    },
+    {
+      "timestamp": "2025-09-17T15:47:04.432804",
+      "execution_metadata": {
+        "sage_script": "/Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage",
+        "execution_time_seconds": 2.765871047973633,
+        "success": true,
+        "sage_stdout_length": 128,
+        "sage_stderr_length": 0
+      },
+      "mathematical_input": {
+        "algorithm": "bradley-terry",
+        "convergence_parameters": {
+          "epsilon": 0.0001,
+          "max_iterations": 1000,
+          "learning_rate_type": "robbins_monro"
+        },
+        "problem_dimension": {
+          "n_documents": 3,
+          "n_comparisons": 6,
+          "matrix_density": 0.6666666666666666,
+          "preference_matrix_properties": {
+            "diagonal_sum": 0.0,
+            "off_diagonal_sum": 12.0,
+            "matrix_trace": 0.0,
+            "matrix_symmetry_measure": -2.0
+          }
+        },
+        "document_ids": [
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "preference_matrix": [
+          [
+            0.0,
+            1.0,
+            1.5
+          ],
+          [
+            3.0,
+            0.0,
+            0.5
+          ],
+          [
+            2.5,
+            3.5,
+            0.0
+          ]
+        ],
+        "sparse_comparisons": [
+          {
+            "i": 0,
+            "j": 1,
+            "weight": 1.0
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "weight": 1.5
+          },
+          {
+            "i": 1,
+            "j": 0,
+            "weight": 3.0
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "weight": 0.5
+          },
+          {
+            "i": 2,
+            "j": 0,
+            "weight": 2.5
+          },
+          {
+            "i": 2,
+            "j": 1,
+            "weight": 3.5
+          }
+        ]
+      },
+      "mathematical_output": {
+        "elo_scores": {
+          "d1": 0.3661740402424141,
+          "d2": -0.7323480804848282,
+          "d3": 0.3661740402424141
+        },
+        "convergence_status": {
+          "converged": true,
+          "iterations": 14,
+          "final_loss": 7.938235083216443,
+          "time_seconds": 0.09653496742248535,
+          "model": "bradley-terry",
+          "n_documents": 3,
+          "n_comparisons": 6
+        },
+        "score_statistics": {
+          "count": 3,
+          "mean": 0.0,
+          "std_dev": 0.5178482938997735,
+          "variance": 0.2681668554949062,
+          "min": -0.7323480804848282,
+          "max": 0.3661740402424141,
+          "range": 1.0985221207272424,
+          "median": 0.3661740402424141,
+          "sum_constraint_satisfied": true,
+          "score_distribution": {
+            "q1": -0.7323480804848282,
+            "q3": 0.3661740402424141
+          }
+        },
+        "mathematical_properties": {
+          "unique_scores": 2,
+          "tied_documents": 1,
+          "perfect_ranking": false,
+          "ranking_gaps": [
+            0.0,
+            1.0985221207272424
+          ],
+          "max_gap": 1.0985221207272424,
+          "min_gap": 0.0,
+          "ranking_structure": [
+            [
+              "d1",
+              0.3661740402424141
+            ],
+            [
+              "d3",
+              0.3661740402424141
+            ],
+            [
+              "d2",
+              -0.7323480804848282
+            ]
+          ]
+        }
+      },
+      "detailed_analysis": {
+        "algorithm_trace": {
+          "iteration_count": 0,
+          "convergence_messages": [],
+          "test_results": [],
+          "mathematical_operations": []
+        },
+        "convergence_analysis": {
+          "converged": true,
+          "iterations_used": 14,
+          "final_loss": 7.938235083216443,
+          "convergence_quality": "excellent",
+          "efficiency_score": 0.986,
+          "numerical_precision": "low"
+        },
+        "numerical_stability": {
+          "matrix_conditioning": "poor",
+          "extreme_preference_values": 8,
+          "score_range": 1.0985221207272424,
+          "score_magnitude": 0.7323480804848282,
+          "numerical_warnings": [
+            "High number of extreme preference values detected"
+          ]
+        }
+      },
+      "sage_output": {
+        "stdout": "Successfully calculated Elos for 3 documents\nResults saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmpb2ul5wom.json\n",
+        "stderr": ""
+      }
+    },
+    {
+      "timestamp": "2025-09-17T15:47:07.025716",
+      "execution_metadata": {
+        "sage_script": "/Users/davidkypuros/Documents/GitHub_Projects/elo-test-fun/sage/main.sage",
+        "execution_time_seconds": 2.5897152423858643,
+        "success": true,
+        "sage_stdout_length": 128,
+        "sage_stderr_length": 0
+      },
+      "mathematical_input": {
+        "algorithm": "bradley-terry",
+        "convergence_parameters": {
+          "epsilon": 0.0001,
+          "max_iterations": 1000,
+          "learning_rate_type": "robbins_monro"
+        },
+        "problem_dimension": {
+          "n_documents": 3,
+          "n_comparisons": 6,
+          "matrix_density": 0.6666666666666666,
+          "preference_matrix_properties": {
+            "diagonal_sum": 0.0,
+            "off_diagonal_sum": 12.0,
+            "matrix_trace": 0.0,
+            "matrix_symmetry_measure": -2.0
+          }
+        },
+        "document_ids": [
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "preference_matrix": [
+          [
+            0.0,
+            2.5,
+            3.0
+          ],
+          [
+            1.5,
+            0.0,
+            3.5
+          ],
+          [
+            1.0,
+            0.5,
+            0.0
+          ]
+        ],
+        "sparse_comparisons": [
+          {
+            "i": 0,
+            "j": 1,
+            "weight": 2.5
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "weight": 3.0
+          },
+          {
+            "i": 1,
+            "j": 0,
+            "weight": 1.5
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "weight": 3.5
+          },
+          {
+            "i": 2,
+            "j": 0,
+            "weight": 1.0
+          },
+          {
+            "i": 2,
+            "j": 1,
+            "weight": 0.5
+          }
+        ]
+      },
+      "mathematical_output": {
+        "elo_scores": {
+          "d4": -5.658122232925905,
+          "d5": 3.633083425566992,
+          "d6": 2.0250388073589134
+        },
+        "convergence_status": {
+          "converged": true,
+          "iterations": 13,
+          "final_loss": 2.0268957394822475,
+          "time_seconds": 0.07076215744018555,
+          "model": "bradley-terry",
+          "n_documents": 3,
+          "n_comparisons": 6
+        },
+        "score_statistics": {
+          "count": 3,
+          "mean": 1.4802973661668753e-16,
+          "std_dev": 4.0543977995574805,
+          "variance": 16.43814151705654,
+          "min": -5.658122232925905,
+          "max": 3.633083425566992,
+          "range": 9.291205658492897,
+          "median": 2.0250388073589134,
+          "sum_constraint_satisfied": true,
+          "score_distribution": {
+            "q1": -5.658122232925905,
+            "q3": 3.633083425566992
+          }
+        },
+        "mathematical_properties": {
+          "unique_scores": 3,
+          "tied_documents": 0,
+          "perfect_ranking": true,
+          "ranking_gaps": [
+            1.6080446182080785,
+            7.683161040284818
+          ],
+          "max_gap": 7.683161040284818,
+          "min_gap": 1.6080446182080785,
+          "ranking_structure": [
+            [
+              "d5",
+              3.633083425566992
+            ],
+            [
+              "d6",
+              2.0250388073589134
+            ],
+            [
+              "d4",
+              -5.658122232925905
+            ]
+          ]
+        }
+      },
+      "detailed_analysis": {
+        "algorithm_trace": {
+          "iteration_count": 0,
+          "convergence_messages": [],
+          "test_results": [],
+          "mathematical_operations": []
+        },
+        "convergence_analysis": {
+          "converged": true,
+          "iterations_used": 13,
+          "final_loss": 2.0268957394822475,
+          "convergence_quality": "excellent",
+          "efficiency_score": 0.987,
+          "numerical_precision": "low"
+        },
+        "numerical_stability": {
+          "matrix_conditioning": "poor",
+          "extreme_preference_values": 8,
+          "score_range": 9.291205658492897,
+          "score_magnitude": 5.658122232925905,
+          "numerical_warnings": [
+            "High number of extreme preference values detected"
+          ]
+        }
+      },
+      "sage_output": {
+        "stdout": "Successfully calculated Elos for 3 documents\nResults saved to /var/folders/rq/cqhln3yj0px2t79n4p5skyzm0000gn/T/tmp5qg1tthn.json\n",
+        "stderr": ""
+      }
+    }
+  ]
+}
